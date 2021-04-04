@@ -352,3 +352,22 @@ img{
 .skills__python{
     width: 75%;
 }
+
+/* ###################### EDUCATION ######################## */
+
+.education__continer{
+    row-gap: 2rem;
+}
+.education__content{
+    display: flex;
+    grid-template-columns: 1gr max-content 1fr;
+}
+.education__year, .education__degree{
+    font-size: var(--h3-font-size);
+    margin-bottom: .25rem;
+}
+.education__university, .education__college{
+    display: block;
+    font-size: var(--small-font-size);
+}
+
